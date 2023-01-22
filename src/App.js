@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import MyContacts from "./components/A";
 import Ejercicio2 from "./components/Ejercicio2";
+import ShowContacts from "./components/showContacts";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/* <MyContacts /> */}
-        <Ejercicio2 />
+        {/* <Ejercicio2 /> */}
+        <ShowContacts />
       </header>
     </div>
   );
